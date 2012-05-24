@@ -21,16 +21,19 @@ Requires PHP 5.3 as namespaces and closures are used. Has no other dependencies 
 
 ## Installation :
 
-In your deps file add the line :
+* In your deps file add the line :
+
 
     [php-ga]
         git=http://github.com/t0k4rt/Symfony2GoogleAnalyticsVendor.git
 
-Update your vendors :
+* Update your vendors :
+
 
     php bin/vendors
     
-Update your autoload.php file :
+* Update your autoload.php file :
+
 
     $loader->registerNamespaces(array(
         ...
@@ -38,7 +41,7 @@ Update your autoload.php file :
         ...
     ));
     
-In your config.yml / config_dev.yml / config_prod.yml :
+* In your config.yml / config_dev.yml / config_prod.yml :
 To use this as a service add the following lines
 
     parameters:
