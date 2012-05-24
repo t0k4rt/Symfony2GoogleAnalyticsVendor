@@ -21,16 +21,16 @@ Requires PHP 5.3 as namespaces and closures are used. Has no other dependencies 
 
 ## Installation :
 
-*In your deps file :*
+**In your deps file :**
 
     [php-ga]
         git=http://github.com/t0k4rt/Symfony2GoogleAnalyticsVendor.git
 
-*Update your vendors :*
+**Update your vendors :**
 
     php bin/vendors
     
-*Update your autoload.php file :*
+**Update your autoload.php file :**
 
  
     $loader->registerNamespaces(array(
@@ -39,7 +39,7 @@ Requires PHP 5.3 as namespaces and closures are used. Has no other dependencies 
         ...
     ));
     
-*In your config.yml / config_dev.yml / config_prod.yml :*
+**In your config.yml / config_dev.yml / config_prod.yml :**
 
 To use this as a service add the following lines
 
@@ -54,7 +54,7 @@ To use this as a service add the following lines
             arguments:    [ %php_ga.accountID% , %php_ga.domain% ]
         
         
-*In your bundle :*
+**In your bundle :**
 
 You now can include the class in your controller
 
