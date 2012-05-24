@@ -29,7 +29,6 @@ Requires PHP 5.3 as namespaces and closures are used. Has no other dependencies 
 
 * Update your vendors :
 
-
     php bin/vendors
     
 * Update your autoload.php file :
@@ -56,7 +55,9 @@ To use this as a service add the following lines
         
         
 * In your bundle :
-You now can include the class in your controller 
+You now can include the class in your controller
+
+ 
     use googleanalytics;
 
 And track page (or events etc.) :
