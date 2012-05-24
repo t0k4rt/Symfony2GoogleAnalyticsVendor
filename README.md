@@ -21,19 +21,23 @@ Requires PHP 5.3 as namespaces and closures are used. Has no other dependencies 
 
 ## Installation :
 
-* In your deps file add the line :
+* In your deps file :
 
+add the line : 
 
     [php-ga]
         git=http://github.com/t0k4rt/Symfony2GoogleAnalyticsVendor.git
 
 * Update your vendors :
 
+In symfony console : 
+
     php bin/vendors
     
 * Update your autoload.php file :
 
-
+add the line :
+ 
     $loader->registerNamespaces(array(
         ...
         'GoogleAnalytics'         => __DIR__.'/../vendor/php-ga/src',
