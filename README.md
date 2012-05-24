@@ -41,6 +41,7 @@ Requires PHP 5.3 as namespaces and closures are used. Has no other dependencies 
     ));
     
 * In your config.yml / config_dev.yml / config_prod.yml :
+
 To use this as a service add the following lines
 
     parameters:
@@ -55,6 +56,7 @@ To use this as a service add the following lines
         
         
 * In your bundle :
+
 You now can include the class in your controller
 
  
