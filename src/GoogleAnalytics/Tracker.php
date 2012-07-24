@@ -26,10 +26,6 @@
  * @copyright Copyright (c) 2010 United Prototype GmbH (http://unitedprototype.com)
  */
 
-namespace Kairos\AppTagBundle\Controller;
-
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-
 namespace GoogleAnalytics;
 
 use GoogleAnalytics\Internals\Util;
